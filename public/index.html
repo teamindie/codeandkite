@@ -39,10 +39,16 @@
           >
             Wil je ook coden en kiten in...
           </h1>
-          <p class="text-xl sm:text-2xl md:text-4xl" id="cities">
-            Cape Town, Africa
-          </p>
+          <div class="text-xl sm:text-2xl md:text-4xl mt-4" id="cities">
+          </div>
         </div>
+        <script type="text/javascript">
+          const instance = new Typewriter('#cities', {
+            strings: ['Tarifa, Spanje', 'Cape Town, Zuid-Afrika', 'Cabarete, Dominicaanse Republiek'],
+            autoStart: true,
+            loop: true,
+          });
+        </script>
       </section>
     </div>
 
