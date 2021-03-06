@@ -39,12 +39,15 @@
           >
             Wil je ook coden en kiten in...
           </h1>
-          <div class="text-xl sm:text-2xl md:text-4xl mt-4" id="cities">
-          </div>
+          <div class="text-xl sm:text-2xl md:text-4xl mt-4" id="cities"></div>
         </div>
         <script type="text/javascript">
-          const instance = new Typewriter('#cities', {
-            strings: ['Tarifa, Spanje', 'Cape Town, Zuid-Afrika', 'Cabarete, Dominicaanse Republiek'],
+          const instance = new Typewriter("#cities", {
+            strings: [
+              "Tarifa, Spanje",
+              "Cape Town, Zuid-Afrika",
+              "Cabarete, Dominicaanse Republiek",
+            ],
             autoStart: true,
             loop: true,
           });
@@ -53,9 +56,9 @@
     </div>
 
     <section>
-      <div class="-mt-44 flex justify-around">
+      <div class="-mt-44 flex justify-around text-gray-800">
         <div class="bg-white rounded shadow z-10 p-4 h-44 w-1/4">
-          <h3>Wat we doen!</h3>
+          <h3>Cursus!</h3>
           <p>
             Doe je iets met software en heb je de ambitie om te leren kite of je
             doet het al een aantal jaar, dan ben jij de persoon waar wij naar
@@ -63,7 +66,7 @@
           </p>
         </div>
         <div class="bg-white rounded shadow z-10 p-4 h-44 w-1/4 mt-8">
-          <h3>Wat we doen!</h3>
+          <h3>Kite!</h3>
           <p>
             Doe je iets met software en heb je de ambitie om te leren kite of je
             doet het al een aantal jaar, dan ben jij de persoon waar wij naar
@@ -79,23 +82,23 @@
           </p>
         </div>
       </div>
-      <div class="-mt-44 h-48 z-0 w-full transform skew-y-6 bg-white"></div>
+      <div class="-mt-44 h-72 z-0 w-full transform skew-y-6 bg-white"></div>
       <div class="px-20 py-10 grid grid-cols-2">
-        <div class="z-10 bt-40 pb-10">
+        <div class="z-10 bt-40 pb-10 text-gray-800">
           <h1 class="text-3xl font-bold uppercase leading-relaxed">
             Wat we doen!
           </h1>
-          <p class="pt-2 leading-relaxed text-xl text-gray-800">
+          <p class="pt-2 leading-relaxed text-lg">
             Doe je iets met software en heb je de ambitie om te leren kite of je
             doet het al een aantal jaar, dan ben jij de persoon waar wij naar
             zoeken!
           </p>
-          <p class="pt-2 leading-relaxed text-xl text-gray-800">
+          <p class="pt-2 leading-relaxed text-lg">
             Wij bieden in een breed scala cursussen aan rondom de topics
             software en technologie die we geven op de hottest kite spots ter
             wereld.
           </p>
-          <p class="pt-2 leading-relaxed text-xl text-gray-800">
+          <p class="pt-2 leading-relaxed text-lg">
             Dus als je jou kennis wilt verbreden en dit combineren met een van
             de beste kite sessies van je leven, join us op een van de trips!
           </p>
@@ -108,37 +111,39 @@
           />
         </div>
       </div>
-      <div>
-        <div class="p-4">
+      <div class="px-20 grid grid-cols-3">
+        <div class="pr-4">
           <img
-            class="p-auto h-60"
+            class="p-auto h-42 shadow"
             src="./images/codeandkite2.jpg"
             alt="programmeren"
           />
         </div>
-        <div>
-          <div class="px-20 z-10">
-            <h1 class="text-3xl font-bold uppercase leading-relaxed">
-              Wat je leert!
-            </h1>
-            <p class="pt-2">
-              Als ontwikkelaar wordt je constant overspoeld met nieuwe ontwikkel
-              technieken en tools die het coden sneller en eenvoudiger moeten
-              maken.
-            </p>
-            <p class="pt-2">
-              Wij als team beschikken over een enorme hoeveelheid aan kennis,
-              van AI tot en met tailwind. Alles komt voorbij.
-            </p>
-          </div>
+        <div class="col-span-2 pl-4 text-gray-800">
+          <h1 class="text-3xl font-bold uppercase leading-relaxed">
+            Wat je leert!
+          </h1>
+          <p class="pt-2 text-lg text-gray-800 leading-relaxed">
+            Als ontwikkelaar wordt je constant overspoeld met nieuwe ontwikkel
+            technieken en tools die het coden sneller en eenvoudiger moeten
+            maken.
+          </p>
+          <p class="pt-2 text-lg text-gray-800 leading-relaxed">
+            Wij als team beschikken over een enorme hoeveelheid aan kennis, van
+            AI tot en met tailwind. Alles komt voorbij.
+          </p>
+          <p class="pt-2 text-lg text-gray-800 leading-relaxed">
+            Verbreed je kennis met onze trainingen vanuit de mooiste locaties
+            die je jezelf kan indenken.
+          </p>
         </div>
       </div>
     </section>
 
     <section>
       <div class="p-20">
-        Location of the course Photo A map Maye some activities in the area
-        THINGS TODO
+        2021 trips
+        Wij regelen een comfortabele werkplek met goed internet en een inspirerend programma aan trainingen. Voor de accommodatie en reis ben je zelf verantwoordelijk, verder hoeft alleen je laptop mee te nemen!
       </div>
     </section>
 
@@ -157,20 +162,30 @@
 
     <section>
       <div
-        class="bg-cover bg-bottom"
+        class="bg-cover bg-bottom px-20 py-10"
         style="background-image: url('images/codeandkite2.jpg');"
       >
-        <h1>The teachers</h1>
-        <ul>
-          <li>Emile Bosch</li>
-          <li>Rory Groenewege</li>
-        </ul>
+        <h1 class="text-3xl text-center pb-10">The teachers</h1>
+        <div class="flex justify-around">
+          <div class="w-1/3 bg-white rounded shadow-xl p-4">
+            <p>Emile</p>
+            <p>15 jaar ervaring super unit, verder mag hij dit zelf vertellen.</p>
+          </div>
+          <div class="w-1/3 bg-white rounded shadow-xl h-72 p-4">
+            <p>Rory</p>
+            <p>Na zijn opleiding informatie direct in contact gekomen met Emile, zijn eerste werkgever! Intussen uitgegroeid tot een senior ontwikkelaar die de uitdaging opzoekt in het bouwen van MVP producten. Daarnaast reist hij het liefst rond in zijn camper om de mooiste surf en kite spots te ontdekken. Huidige tech stack: GraphQL/Rails/Javascript and React.</p>
+          </div>
+        </div>
         <!-- Jobs Become a teacher -->
       </div>
     </section>
     <section>
       <h1>Form</h1>
     </section>
-    <footer></footer>
+    <footer>
+      <div class="p-4 bg-gray-800 text-white text-center">
+        <p>Copyright &copy; 2021</p>
+      </div>
+    </footer>
   </body>
 </html>
